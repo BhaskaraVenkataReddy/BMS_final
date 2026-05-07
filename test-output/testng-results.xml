@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-06T13:56:12 IST" name="BMS Full Test Suite" finished-at="2026-05-06T13:56:28 IST" duration-ms="16502">
+    <groups>
+    </groups>
+    <test started-at="2026-05-06T13:56:12 IST" name="Home Page Tests" finished-at="2026-05-06T13:56:15 IST" duration-ms="2994">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="prepareHomePage()[pri:0, instance:tests.HomePageTest@23348b5d]" started-at="2026-05-06T13:56:12 IST" name="prepareHomePage" finished-at="2026-05-06T13:56:12 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareHomePage -->
+        <test-method signature="testPageTitleAndLogo()[pri:1, instance:tests.HomePageTest@23348b5d]" started-at="2026-05-06T13:56:12 IST" name="testPageTitleAndLogo" finished-at="2026-05-06T13:56:13 IST" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitleAndLogo -->
+        <test-method signature="testSearchBarInteraction()[pri:2, instance:tests.HomePageTest@23348b5d]" started-at="2026-05-06T13:56:13 IST" name="testSearchBarInteraction" finished-at="2026-05-06T13:56:13 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBarInteraction -->
+        <test-method signature="testFooterCopyrightYear()[pri:3, instance:tests.HomePageTest@23348b5d]" started-at="2026-05-06T13:56:13 IST" name="testFooterCopyrightYear" finished-at="2026-05-06T13:56:13 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterCopyrightYear -->
+        <test-method signature="testNavigationToSignIn()[pri:4, instance:tests.HomePageTest@23348b5d]" started-at="2026-05-06T13:56:13 IST" name="testNavigationToSignIn" finished-at="2026-05-06T13:56:14 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToSignIn -->
+        <test-method signature="testMoviesLinkNavigation()[pri:5, instance:tests.HomePageTest@23348b5d]" started-at="2026-05-06T13:56:14 IST" name="testMoviesLinkNavigation" finished-at="2026-05-06T13:56:15 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMoviesLinkNavigation -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Home Page Tests -->
+    <test started-at="2026-05-06T13:56:15 IST" name="Movies Dashboard Tests" finished-at="2026-05-06T13:56:18 IST" duration-ms="3425">
+      <class name="tests.MovieDashboardTest">
+        <test-method is-config="true" signature="prepareMoviesPage()[pri:0, instance:tests.MovieDashboardTest@6e509ffa]" started-at="2026-05-06T13:56:15 IST" name="prepareMoviesPage" finished-at="2026-05-06T13:56:15 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareMoviesPage -->
+        <test-method signature="testTotalMoviesDisplayed()[pri:1, instance:tests.MovieDashboardTest@6e509ffa]" started-at="2026-05-06T13:56:15 IST" name="testTotalMoviesDisplayed" finished-at="2026-05-06T13:56:15 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalMoviesDisplayed -->
+        <test-method signature="testSectionNavigationScroll()[pri:2, instance:tests.MovieDashboardTest@6e509ffa]" started-at="2026-05-06T13:56:15 IST" name="testSectionNavigationScroll" finished-at="2026-05-06T13:56:17 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSectionNavigationScroll -->
+        <test-method signature="testRecommendedSectionCount()[pri:3, instance:tests.MovieDashboardTest@6e509ffa]" started-at="2026-05-06T13:56:17 IST" name="testRecommendedSectionCount" finished-at="2026-05-06T13:56:18 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRecommendedSectionCount -->
+        <test-method signature="testTopRatedRibbonVisibility()[pri:4, instance:tests.MovieDashboardTest@6e509ffa]" started-at="2026-05-06T13:56:18 IST" name="testTopRatedRibbonVisibility" finished-at="2026-05-06T13:56:18 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTopRatedRibbonVisibility -->
+        <test-method signature="testMovieTitleIntegrity()[pri:5, instance:tests.MovieDashboardTest@6e509ffa]" started-at="2026-05-06T13:56:18 IST" name="testMovieTitleIntegrity" finished-at="2026-05-06T13:56:18 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMovieTitleIntegrity -->
+      </class> <!-- tests.MovieDashboardTest -->
+    </test> <!-- Movies Dashboard Tests -->
+    <test started-at="2026-05-06T13:56:18 IST" name="Sports Filter Tests" finished-at="2026-05-06T13:56:23 IST" duration-ms="4399">
+      <class name="tests.SportsFilterTest">
+        <test-method is-config="true" signature="prepareSportsPage()[pri:0, instance:tests.SportsFilterTest@548e6d58]" started-at="2026-05-06T13:56:18 IST" name="prepareSportsPage" finished-at="2026-05-06T13:56:20 IST" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareSportsPage -->
+        <test-method signature="testSportsPageNavigation()[pri:1, instance:tests.SportsFilterTest@548e6d58]" started-at="2026-05-06T13:56:20 IST" name="testSportsPageNavigation" finished-at="2026-05-06T13:56:20 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSportsPageNavigation -->
+        <test-method signature="testTotalEventCount()[pri:2, instance:tests.SportsFilterTest@548e6d58]" started-at="2026-05-06T13:56:20 IST" name="testTotalEventCount" finished-at="2026-05-06T13:56:20 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalEventCount -->
+        <test-method signature="testSearchFunctionality()[pri:3, instance:tests.SportsFilterTest@548e6d58]" started-at="2026-05-06T13:56:20 IST" name="testSearchFunctionality" finished-at="2026-05-06T13:56:21 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFunctionality -->
+        <test-method signature="testWeekendFilter()[pri:4, instance:tests.SportsFilterTest@548e6d58]" started-at="2026-05-06T13:56:21 IST" name="testWeekendFilter" finished-at="2026-05-06T13:56:22 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWeekendFilter -->
+        <test-method signature="testClearAllFilters()[pri:5, instance:tests.SportsFilterTest@548e6d58]" started-at="2026-05-06T13:56:22 IST" name="testClearAllFilters" finished-at="2026-05-06T13:56:23 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClearAllFilters -->
+      </class> <!-- tests.SportsFilterTest -->
+    </test> <!-- Sports Filter Tests -->
+    <test started-at="2026-05-06T13:56:23 IST" name="Authentication Tests" finished-at="2026-05-06T13:56:28 IST" duration-ms="5480">
+      <class name="tests.AuthenticationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:02 IST" name="setup" finished-at="2026-05-06T13:56:12 IST" duration-ms="9966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="preparePage()[pri:0, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:23 IST" name="preparePage" finished-at="2026-05-06T13:56:23 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preparePage -->
+        <test-method signature="testRegistrationTabVisibility()[pri:1, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:23 IST" name="testRegistrationTabVisibility" finished-at="2026-05-06T13:56:23 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationTabVisibility -->
+        <test-method signature="testSuccessfulRegistration()[pri:2, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:23 IST" name="testSuccessfulRegistration" finished-at="2026-05-06T13:56:25 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulRegistration -->
+        <test-method signature="testInvalidLoginErrorMessage()[pri:3, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:25 IST" name="testInvalidLoginErrorMessage" finished-at="2026-05-06T13:56:26 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginErrorMessage -->
+        <test-method signature="testEmptyFieldsValidation()[pri:4, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:26 IST" name="testEmptyFieldsValidation" finished-at="2026-05-06T13:56:27 IST" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method signature="testSuccessfulLogin()[pri:5, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:27 IST" name="testSuccessfulLogin" finished-at="2026-05-06T13:56:28 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AuthenticationTest@17a7f733]" started-at="2026-05-06T13:56:28 IST" name="tearDown" finished-at="2026-05-06T13:56:34 IST" duration-ms="5980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AuthenticationTest -->
+    </test> <!-- Authentication Tests -->
+  </suite> <!-- BMS Full Test Suite -->
+</testng-results>
